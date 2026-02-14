@@ -2,7 +2,7 @@
 
 A professional academic website built with HTML/CSS, ready to deploy on GitHub Pages.
 
-## 📁 File Structure
+## File Structure
 
 ```
 ├── index.html          # Biography / Home page
