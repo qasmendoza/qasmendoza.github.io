@@ -8,14 +8,13 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
 </head>
-
 <body>
 
   <nav class="nav">
     <a href="index.html" class="nav__brand">Querriel Arvy Mendoza / K-State</a>
     <ul class="nav__links" id="navLinks">
       <li><a href="index.html" class="active">Biography</a></li>
-      <li><a href="files/QuerrielArvyMendoza_Resume.pdf" target="_blank">CV</a></li>
+      <li><a href="files/QuerrielArvyMendoza_Resume.pdf" target="_blank">Resume</a></li>
       <li><a href="research.html">Research</a></li>
       <li><a href="publications.html">Publications</a></li>
       <li><a href="projects.html">Projects</a></li>
@@ -29,15 +28,10 @@
 
   <div class="page">
     <aside class="sidebar">
-      
-      <!-- ✅ FIXED IMAGE PATH -->
       <img src="images/profile.png" alt="Querriel Arvy Mendoza" class="sidebar__photo">
 
       <h2 class="sidebar__name">Querriel Arvy Mendoza</h2>
-      <p class="sidebar__title">
-        Ph.D. Student, Computer Science<br>
-        Kansas State University
-      </p>
+      <p class="sidebar__title">Ph.D. Student, Computer Science<br>Kansas State University</p>
 
       <ul class="sidebar__info">
         <li>Manhattan, KS</li>
@@ -53,52 +47,109 @@
         <a href="https://github.com/qasmendoza" target="_blank">GitHub</a> |
         <a href="https://www.researchgate.net/profile/Querriel-Arvy-Mendoza" target="_blank">ResearchGate</a>
       </div>
-
     </aside>
 
     <main class="main">
       <h1>Biography</h1>
 
       <p>
-        I am a Ph.D. student in <strong>Computer Science</strong> at 
+        I am a Ph.D. student in <strong>Computer Science</strong> at
         <strong>Kansas State University</strong>, working as a Robotics, Machine Learning
-        and Data Science Graduate Research Assistant in the 
-        <a href="https://people.cs.ksu.edu/~neilsen/group.html" target="_blank">
-          Cyber-Physical Systems (CPS) Lab
-        </a>
-        under the supervision of Prof. Mitchell Neilsen and Prof. John Hatcliff.
+        and Data Science Graduate Research Assistant in the
+        <a href="https://people.cs.ksu.edu/~neilsen/group.html" target="_blank">Cyber-Physical Systems (CPS) Lab</a>
+        under the supervision of
+        <a href="https://people.cs.ksu.edu/~neilsen/" target="_blank">Prof. Mitchell Neilsen</a> and
+        <a href="https://hatcliff.cs.ksu.edu/" target="_blank">Prof. John Hatcliff</a>.
       </p>
 
       <p>
-        My research lies at the intersection of robotics, machine learning,
-        computer vision, and IoT/embedded systems, focusing on practical AI
-        solutions for real-world applications.
+        My research lies at the intersection of <strong>robotics</strong>, <strong>machine learning</strong>,
+        <strong>computer vision</strong>, and <strong>IoT/embedded systems</strong>, focusing on practical AI
+        solutions for real-world applications — from insect pest detection in grain facilities to
+        crop recommendation systems. I am passionate about leveraging data-driven approaches to
+        drive decision-making, optimize performance, and create tangible impact in agriculture and beyond.
+      </p>
+
+      <p>
+        Prior to academia, I spent over six years in IT infrastructure and operations across
+        <strong>Hewlett-Packard Enterprise</strong>, <strong>Ingram Micro</strong>, and <strong>Accenture</strong>,
+        where I led teams of 30+ professionals and earned multiple awards for designing solutions that
+        improved system performance by up to 30%. I also completed a Data Science internship at
+        <strong>Caterpillar Inc.</strong>, where I developed ML models that resulted in $2M in cost savings.
       </p>
 
       <h2>Research Interests</h2>
-      <ul>
+      <ul class="bio__interests">
         <li>Robotics</li>
-        <li>Machine Learning & Deep Learning</li>
+        <li>Machine Learning &amp; Deep Learning</li>
         <li>Computer Vision</li>
-        <li>IoT & Embedded Systems</li>
-        <li>Data Science & Analytics</li>
+        <li>IoT &amp; Embedded Systems</li>
+        <li>Data Science &amp; Analytics</li>
+        <li>Natural Language Processing</li>
+        <li>Remote Sensing</li>
+        <li>Applied Statistics</li>
       </ul>
 
       <h2>Education</h2>
-      <p><strong>Ph.D. in Computer Science</strong><br>
-      Kansas State University — Expected 2027</p>
 
-      <p><strong>M.S. in Computer Science</strong><br>
-      Kansas State University — 2023</p>
+      <div class="education-item">
+        <h4>Ph.D. in Computer Science (GPA: 3.9/4.0)</h4>
+        <p>Kansas State University, Manhattan, KS &middot; Expected 2027</p>
+      </div>
 
-      <p><strong>B.S. in Electronics Engineering</strong><br>
-      Adamson University — 2009</p>
+      <div class="education-item">
+        <h4>M.S. in Computer Science (GPA: 3.8/4.0)</h4>
+        <p>Kansas State University, Manhattan, KS &middot; 2023</p>
+      </div>
+
+      <div class="education-item">
+        <h4>B.S. in Electronics Engineering (GPA: 3.75/4.0)</h4>
+        <p>Adamson University, Manila, Philippines &middot; 2009</p>
+      </div>
+
+      <h2>Technical Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h4>Languages &amp; Tools</h4>
+          <div class="skill-card__tags"><span>Python</span><span>SQL</span><span>Git</span><span>GitHub</span><span>SQLAlchemy</span></div>
+        </div>
+        <div class="skill-card">
+          <h4>ML / AI Frameworks</h4>
+          <div class="skill-card__tags"><span>TensorFlow</span><span>PyTorch</span><span>Scikit-Learn</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span></div>
+        </div>
+        <div class="skill-card">
+          <h4>Data Science</h4>
+          <div class="skill-card__tags"><span>Regression</span><span>Random Forest</span><span>SVM</span><span>XGBoost</span><span>Naïve-Bayes</span><span>Data Mining</span></div>
+        </div>
+        <div class="skill-card">
+          <h4>Visualization</h4>
+          <div class="skill-card__tags"><span>Power BI</span><span>Tableau</span></div>
+        </div>
+        <div class="skill-card">
+          <h4>Cloud &amp; DevOps</h4>
+          <div class="skill-card__tags"><span>AWS</span><span>Azure</span><span>Azure DevOps</span><span>Snowflake</span></div>
+        </div>
+        <div class="skill-card">
+          <h4>Infrastructure</h4>
+          <div class="skill-card__tags"><span>Active Directory</span><span>Storage &amp; Backup</span><span>ITIL V3</span></div>
+        </div>
+      </div>
+
+      <h2>Certifications</h2>
+      <ul>
+        <li>Data Analysis and Visualization Foundations Specialization — <em>IBM</em>, Sep 2022</li>
+        <li>Machine Learning Specialization — <em>DeepLearning.AI</em>, Sep 2022</li>
+        <li>DevOps on AWS Specialization — <em>AWS</em>, Jul 2022</li>
+        <li>Python for Everybody Specialization — <em>University of Michigan</em>, Jun 2022</li>
+        <li>ITIL V3 Foundations Certification, Feb 2016</li>
+      </ul>
 
     </main>
   </div>
 
   <footer class="footer">
-    &copy; 2026 Querriel Arvy Mendoza. Hosted on 
+    &copy; 2026 Querriel Arvy Mendoza. Hosted on
     <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   </footer>
 
