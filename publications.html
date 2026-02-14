@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Research - Querriel Arvy Mendoza | K-State</title>
-  <meta name="description" content="Research in robotics, machine learning, computer vision, IoT, and data science.">
+  <title>Publications - Querriel Arvy Mendoza | K-State</title>
+  <meta name="description" content="Publications by Querriel Arvy Mendoza in machine learning, computer vision, and AI for agriculture.">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
 </head>
@@ -15,8 +15,8 @@
     <ul class="nav__links" id="navLinks">
       <li><a href="index.html">Biography</a></li>
       <li><a href="files/QuerrielArvyMendoza_Resume.pdf" target="_blank">Resume</a></li>
-      <li><a href="research.html" class="active">Research</a></li>
-      <li><a href="publications.html">Publications</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html" class="active">Publications</a></li>
       <li><a href="projects.html">Projects</a></li>
     </ul>
     <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
@@ -49,64 +49,50 @@
     </aside>
 
     <main class="main">
-      <h1>Research</h1>
+      <h1>Publications</h1>
+      <p style="color: var(--text-light); margin-bottom: 1.5rem;">
+        For an up-to-date list, see my
+        <a href="https://scholar.google.com/citations?user=4UfmKB4AAAAJ&hl=en" target="_blank">Google Scholar profile</a>.
+      </p>
 
-      <div class="highlight-box">
-        <h3>Research Focus</h3>
-        <p>
-          My research bridges robotics, machine learning, computer vision, and embedded systems to create
-          practical AI-powered solutions for agriculture and food safety. I am particularly interested in
-          building low-cost, deployable systems that bring state-of-the-art deep learning to edge devices,
-          making intelligent monitoring accessible where it is needed most.
-        </p>
+      <h2>Thesis</h2>
+
+      <div class="pub-item">
+        <div class="pub-item__title">Integrating an AI-based insect detection and identification system to optimize grain facility management</div>
+        <div class="pub-item__authors"><strong>Q. A. Mendoza</strong></div>
+        <div class="pub-item__venue">M.S. Thesis, Kansas State University, 2023</div>
       </div>
 
-      <h2>Research Areas</h2>
+      <h2>Journal Articles</h2>
 
-      <div class="research-card">
-        <h3>AI-Based Insect Detection for Grain Facilities</h3>
-        <p>
-          Developing real-time insect pest detection and identification systems for grain storage
-          and food facilities. Using convolutional neural networks (CNNs) deployed on low-cost edge
-          computing platforms (NVIDIA Jetson Nano) paired with camera systems, the goal is to enable
-          automated, scalable integrated pest management (IPM) decisions. The system detects and
-          classifies stored-product pests such as warehouse beetles and cigarette beetles under
-          varying lighting conditions with greater than 85% accuracy.
-        </p>
-        <div class="research-tags"><span>Deep Learning</span><span>Computer Vision</span><span>Object Detection</span><span>Edge Computing</span><span>Jetson Nano</span><span>IPM</span></div>
+      <div class="pub-item">
+        <div class="pub-item__title">Application of Machine Learning for Insect Monitoring in Grain Facilities</div>
+        <div class="pub-item__authors"><strong>Q. A. Mendoza</strong>, L. Pordesimo, M. Neilsen, P. Armstrong, J. Campbell, P. T. Mendoza</div>
+        <div class="pub-item__venue">AI, 4(1), 348–360, March 2023 &middot; MDPI</div>
+        <div class="pub-item__links">
+          <a href="https://doi.org/10.3390/ai4010017" target="_blank">DOI</a>
+          <a href="https://www.mdpi.com/2673-2688/4/1/17" target="_blank">MDPI</a>
+          <a href="https://github.com/qasmendoza/insect_detection" target="_blank">Code</a>
+        </div>
       </div>
 
-      <div class="research-card">
-        <h3>Machine Learning for Agricultural Decision Support</h3>
-        <p>
-          Building data-driven recommendation systems that leverage machine learning and applied
-          statistics to advise on optimal crop selection, fertilizer application, and disease detection.
-          These proof-of-concept tools combine environmental sensor data, soil properties, and historical
-          yield information to provide actionable insights for farmers and agronomists.
-        </p>
-        <div class="research-tags"><span>Machine Learning</span><span>Predictive Analytics</span><span>Crop Recommendation</span><span>Data Science</span></div>
+      <h2>Conference Proceedings</h2>
+
+      <div class="pub-item">
+        <div class="pub-item__title">Enhancing grain facility management with AI-based insect detection and identification system</div>
+        <div class="pub-item__authors"><strong>Q. A. Mendoza</strong>, L. Pordesimo, M. Neilsen</div>
+        <div class="pub-item__venue">Proc. SPIE 12545, Sensing for Agriculture and Food Quality and Safety XV, 125450I, June 2023</div>
+        <div class="pub-item__links">
+          <a href="https://doi.org/10.1117/12.2672253" target="_blank">DOI</a>
+          <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12545/125450I/Enhancing-grain-facility-management-with-AI-based-insect-detection-and/10.1117/12.2672253.short" target="_blank">SPIE</a>
+        </div>
       </div>
 
-      <div class="research-card">
-        <h3>IoT &amp; Remote Sensing</h3>
-        <p>
-          Exploring the integration of Internet of Things (IoT) sensor networks and remote sensing
-          data with machine learning pipelines for environmental monitoring, precision agriculture,
-          and cyber-physical systems.
-        </p>
-        <div class="research-tags"><span>IoT</span><span>Remote Sensing</span><span>Cyber-Physical Systems</span><span>Sensor Networks</span></div>
-      </div>
-
-      <div class="research-card">
-        <h3>Data Analytics &amp; Business Intelligence</h3>
-        <p>
-          Applying data science techniques to enterprise contexts — from building ML models that
-          detect asset and event criticality (resulting in significant cost savings) to creating
-          interactive dashboards and visualizations that translate complex data into actionable
-          insights for stakeholders.
-        </p>
-        <div class="research-tags"><span>Data Analytics</span><span>Power BI</span><span>Tableau</span><span>Snowflake</span><span>SQL</span></div>
-      </div>
+      <p style="margin-top: 2rem; font-size: 0.9rem; color: var(--text-muted); font-style: italic;">
+        Additional publications and preprints may be found on
+        <a href="https://www.researchgate.net/profile/Querriel-Arvy-Mendoza" target="_blank">ResearchGate</a>
+        and <a href="https://scholar.google.com/citations?user=4UfmKB4AAAAJ&hl=en" target="_blank">Google Scholar</a>.
+      </p>
     </main>
   </div>
 
