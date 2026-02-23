@@ -1,6 +1,6 @@
 # Personal Academic Website — Querriel Arvy Mendoza
 
-A professional academic website built with HTML/CSS, ready to deploy on GitHub Pages.
+A professional academic website built with HTML and CSS.
 
 ## File Structure
 
