@@ -3,10 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Research - Querriel Arvy Mendoza | Kansas State University</title>
-  <meta name="description" content="Research in robotics, machine learning, computer vision, IoT, and data science.">
+  <title>Projects - Querriel Arvy Mendoza | Kansas State University</title>
+  <meta name="description" content="Projects and experience by Querriel Arvy Mendoza in data science, machine learning, and AI.">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+  <style>
+    /* Smaller, professional social icons */
+    .sidebar__social a { width: 28px; height: 28px; }
+    .sidebar__social a svg { width: 13px; height: 13px; }
+  </style>
 </head>
 <body>
 
@@ -15,9 +20,9 @@
     <ul class="nav__links" id="navLinks">
       <li><a href="index.html">Biography</a></li>
       <li><a href="files/QuerrielArvyMendoza_Resume.pdf" target="_blank">Resume</a></li>
-      <li><a href="research.html" class="active">Research</a></li>
+      <li><a href="research.html">Research</a></li>
       <li><a href="publications.html">Publications</a></li>
-      <li><a href="projects.html">Projects</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
     </ul>
     <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
       <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -38,7 +43,7 @@
         <li><span class="emoji">📍</span> Manhattan, KS</li>
         <li><span class="emoji">🏛️</span> Dept. of Computer Science</li>
         <li><span class="emoji">🔬</span> <a href="https://people.cs.ksu.edu/~neilsen/group.html" target="_blank">CPS Lab</a></li>
-        <li><span class="emoji">📧</span> <a href="mailto:qasmendoza@ksu.edu">qasmendoza@ksu.edu </a></li>
+        <li><span class="emoji">📧</span> <a href="mailto:qasmendoza@ksu.edu">qasmendoza@ksu.edu</a></li>
       </ul>
       <div class="sidebar__social">
         <a href="https://scholar.google.com/citations?user=4UfmKB4AAAAJ&hl=en" target="_blank" title="Google Scholar"><svg viewBox="0 0 24 24"><path d="M12 24a7 7 0 110-14 7 7 0 010 14zm0-24L0 9.5l4.838 3.94A8 8 0 0112 9a8 8 0 017.162 4.44L24 9.5z"/></svg></a>
@@ -49,63 +54,148 @@
     </aside>
 
     <main class="main">
-      <h1>Research</h1>
+      <h1>Projects &amp; Experience</h1>
 
-      <div class="highlight-box">
-        <h3>Research Focus</h3>
-        <p>
-          My research bridges robotics, machine learning, computer vision, and embedded systems to create
-          practical AI-powered solutions for agriculture and food safety. I am particularly interested in
-          building low-cost, deployable systems that bring state-of-the-art deep learning to edge devices,
-          making intelligent monitoring accessible where it is needed most.
-        </p>
-      </div>
+      <p style="color: var(--text-light); margin-bottom: 0.5rem;">
+        Open-source projects can be viewed on
+        <a href="https://github.com/qasmendoza" target="_blank">GitHub</a>.
+      </p>
 
-      <h2>Research Areas</h2>
+      <h2>Projects</h2>
 
       <div class="research-card">
-        <h3>AI-Based Insect Detection for Grain Facilities</h3>
+        <h3>[ON-GOING] FogAg: A Novel Fog-Assisted Smart Agriculture Framework for Multi-Layer Sensing and Real-Time Analytics of Water-Nitrogen Colimitations in Field Crops</h3>
         <p>
-          Developing real-time insect pest detection and identification systems for grain storage
-          and food facilities. Using convolutional neural networks (CNNs) deployed on low-cost edge
-          computing platforms (NVIDIA Jetson Nano) paired with camera systems, the goal is to enable
-          automated, scalable integrated pest management (IPM) decisions. The system detects and
-          classifies stored-product pests such as warehouse beetles and cigarette beetles under
-          varying lighting conditions with greater than 85% accuracy.
+          This research project aims to fill the gaps in contemporary smart agriculture (SmartAg) technologies by
+          proposing a fog-assisted framework, FogAg, that integrates multi-layer sensing and real-time analytics of
+          a plant-soil system to help solve the complex biological puzzle of linking the effect and interaction of two
+          important crop inputs, viz., water and nitrogen, affecting crop yield. FogAg will also help provide near-real
+          time diagnosis of crop stresses and translate the data into usable agronomic decisions not only to
+          boost crop productivity but also to increase overall yield per unit of resource used in farming systems.
         </p>
-        <div class="research-tags"><span>Deep Learning</span><span>Computer Vision</span><span>Object Detection</span><span>Edge Computing</span><span>Jetson Nano</span><span>IPM</span></div>
+        <div class="research-tags"><span>IoT</span><span>Fog Computing</span><span>Smart Agriculture</span><span>Real-Time Analytics</span><span>Remote Sensing</span></div>
       </div>
 
       <div class="research-card">
-        <h3>Machine Learning for Agricultural Decision Support</h3>
+        <h3>[ON-GOING] AphasiaTrack: An NLP-Powered Mobile Application for Continuous Speech Monitoring in Post-Stroke Aphasia Rehabilitation</h3>
         <p>
-          Building data-driven recommendation systems that leverage machine learning and applied
-          statistics to advise on optimal crop selection, fertilizer application, and disease detection.
-          These proof-of-concept tools combine environmental sensor data, soil properties, and historical
-          yield information to provide actionable insights for farmers and agronomists.
+          This project presents AphasiaTrack, a cross-platform mobile application that bridges these two domains by combining structured speech sampling with automated NLP analysis to provide continuous, objective monitoring of language function in post-stroke aphasia patients.
         </p>
-        <div class="research-tags"><span>Machine Learning</span><span>Predictive Analytics</span><span>Crop Recommendation</span><span>Data Science</span></div>
+        <div class="research-tags"><span>Software Engineering</span><span>Software Development</span><span>Natural Language Processing</span><span>Machine Learning</span><span>Biomedical Engineering</span></div>
       </div>
 
       <div class="research-card">
-        <h3>IoT &amp; Remote Sensing</h3>
+        <h3>[ON-GOING] Multi-Axis Seed Imaging with Micro-ROS: A SysML v2 Model-Based Architecture Approach</h3>
         <p>
-          Exploring the integration of Internet of Things (IoT) sensor networks and remote sensing
-          data with machine learning pipelines for environmental monitoring, precision agriculture,
-          and cyber-physical systems.
+          Targeted key Improvements with Micro-ROS:
         </p>
-        <div class="research-tags"><span>IoT</span><span>Remote Sensing</span><span>Cyber-Physical Systems</span><span>Sensor Networks</span></div>
+        <ul>
+          <li>Complete 3D coverage</li>
+          <li>Multi-axis rotation eliminates blind spots</li>
+          <li>Real-time coordination</li>
+          <li>Synchronized motor-camera control via ROS 2</li>
+          <li>Modular architecture</li>
+          <li>Easy integration of new sensors and algorithms</li>
+          <li>Expected accuracy improvement &lt;2% error (vs 3% baseline)</li>
+        </ul>
+        <div class="research-tags"><span>ROS2</span><span>Rust</span><span>SysML V2</span><span>Robotics</span><span>Micro-ROS</span></div>
       </div>
 
       <div class="research-card">
-        <h3>Data Analytics &amp; Business Intelligence</h3>
+        <h3>🐛 Insect Detection System</h3>
         <p>
-          Applying data science techniques to enterprise contexts — from building ML models that
-          detect asset and event criticality (resulting in significant cost savings) to creating
-          interactive dashboards and visualizations that translate complex data into actionable
-          insights for stakeholders.
+          A real-time insect detection and classification system built with deep learning (CNN) and
+          deployed on an NVIDIA Jetson Nano with a camera module. The system identifies stored-product
+          insect pests — including warehouse beetles and cigarette beetles — under varying lighting
+          conditions. Published in MDPI AI and presented at SPIE Defense + Commercial Sensing 2023.
         </p>
-        <div class="research-tags"><span>Data Analytics</span><span>Power BI</span><span>Tableau</span><span>Snowflake</span><span>SQL</span></div>
+        <div class="research-tags"><span>Python</span><span>TensorFlow</span><span>Jetson Nano</span><span>Computer Vision</span></div>
+        <div class="pub-item__links" style="margin-top: 0.75rem;">
+          <a href="https://github.com/qasmendoza/insect_detection" target="_blank">GitHub</a>
+          <a href="https://doi.org/10.3390/ai4010017" target="_blank">Paper</a>
+        </div>
+      </div>
+
+      <div class="research-card">
+        <h3>🌾 Crop Recommendation System</h3>
+        <p>
+          A proof-of-concept machine learning project that advises on the ideal crops to plant,
+          the right fertilizers to employ, and detects diseases that might affect crops. Uses
+          environmental and soil data to provide data-driven agricultural recommendations.
+        </p>
+        <div class="research-tags"><span>Python</span><span>Machine Learning</span><span>Jupyter Notebook</span><span>Data Science</span></div>
+        <div class="pub-item__links" style="margin-top: 0.75rem;">
+          <a href="https://github.com/qasmendoza/crop-recommendation" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="research-card">
+        <h3>💯 100 Days of Code</h3>
+        <p>
+          A self-paced Python coding challenge documenting 100 days of consistent programming
+          practice, covering topics from fundamentals to advanced data structures and algorithms.
+        </p>
+        <div class="research-tags"><span>Python</span><span>Algorithms</span><span>Data Structures</span></div>
+        <div class="pub-item__links" style="margin-top: 0.75rem;">
+          <a href="https://github.com/qasmendoza/100DaysOfCode" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <h2>Professional Experience</h2>
+
+      <div class="exp-card">
+        <h3>Machine Learning &amp; Data Science GRA</h3>
+        <p>
+          Conducting research in AI-based insect detection, computer vision, and IoT applications
+          for grain facility management. Developed an insect detection model with &gt;85% accuracy
+          using neural networks. Managed large datasets, ensuring data integrity and normalization,
+          and utilized advanced analytics to derive meaningful patterns from raw data.
+        </p>
+        <div class="exp-meta"><span>Kansas State University</span><span>Aug 2021 – Present</span><span>Manhattan, KS</span></div>
+      </div>
+
+      <div class="exp-card">
+        <h3>Data Science Intern</h3>
+        <p>
+          Developed and deployed machine learning models to effectively predict asset and event
+          criticality, resulting in cost savings of $2 million. Utilized Python, SQL, and Power BI
+          to analyze and visualize data, providing actionable insights for decision-making.
+          Synthesized complex data analyses into digestible reports for senior management.
+          Worked in an agile setting using Azure DevOps.
+        </p>
+        <div class="exp-meta"><span>Caterpillar Inc.</span><span>May – Aug 2023</span><span>Chicago, IL</span></div>
+      </div>
+
+      <div class="exp-card">
+        <h3>IT Operations Lead</h3>
+        <p>
+          Received Value Creator award. Designed and implemented storage and backup solutions
+          that increased overall system performance by 30%. Led 30+ multi-platform professionals
+          and supervised day-to-day IT operations, ensuring high availability, performance,
+          and security. Oversaw delivery of IT services according to SLAs, ensuring KPIs are met.
+        </p>
+        <div class="exp-meta"><span>Accenture</span><span>Oct 2015 – Oct 2016</span><span>Manila, Philippines</span></div>
+      </div>
+
+      <div class="exp-card">
+        <h3>Infrastructure Engineer — Storage &amp; Backup</h3>
+        <p>
+          Designed and managed storage and backup configurations for newly built servers.
+          Completed AWS Training. Performed storage administration using EMC, DataCore,
+          and NetApp servers.
+        </p>
+        <div class="exp-meta"><span>Ingram Micro Inc.</span><span>Jul 2014 – Oct 2015</span><span>Manila, Philippines</span></div>
+      </div>
+
+      <div class="exp-card">
+        <h3>Service Delivery Consultant — Storage &amp; Backup</h3>
+        <p>
+          Received Gold award for designing and implementing storage and backup solutions that
+          increased system productivity by 25%. Received High Profile award for performing critical
+          tasks under a new platform that reduced 45% backlogged tickets. Improved backup success
+          rate using reports, Problem Management, and Change Management.
+        </p>
+        <div class="exp-meta"><span>Hewlett-Packard Enterprise</span><span>May 2010 – Jul 2014</span><span>Manila, Philippines</span></div>
       </div>
     </main>
   </div>
