@@ -7,6 +7,11 @@
   <meta name="description" content="Research in robotics, machine learning, computer vision, IoT, and data science.">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+  <style>
+    /* Smaller, professional social icons */
+    .sidebar__social a { width: 28px; height: 28px; }
+    .sidebar__social a svg { width: 13px; height: 13px; }
+  </style>
 </head>
 <body>
 
@@ -62,6 +67,22 @@
       </div>
 
       <h2>Research Areas</h2>
+
+      <div class="research-card">
+        <h3>Robotics, ROS &amp; Embedded Systems</h3>
+        <p>
+          Designing modular robotic systems for agricultural imaging and automation using
+          ROS 2 and Micro-ROS on resource-constrained embedded platforms. Current work focuses
+          on multi-axis seed imaging that achieves complete 3D coverage through synchronized
+          motor-camera control, eliminating blind spots found in single-view approaches.
+          The architecture leverages SysML v2 model-based design for formal specification
+          and validation, enabling real-time coordination across distributed sensor nodes
+          with easy integration of new sensors and algorithms. Targeted improvements include
+          reducing measurement error to &lt;2% (vs 3% baseline) through multi-axis rotation
+          and modular, scalable system design.
+        </p>
+        <div class="research-tags"><span>ROS 2</span><span>Micro-ROS</span><span>Robotics</span><span>Embedded Systems</span><span>SysML v2</span><span>Rust</span><span>3D Imaging</span></div>
+      </div>
 
       <div class="research-card">
         <h3>AI-Based Insect Detection for Grain Facilities</h3>
