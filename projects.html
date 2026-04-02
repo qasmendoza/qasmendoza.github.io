@@ -19,6 +19,9 @@
     .gallery__item img { width: 100%; height: 220px; object-fit: cover; display: block; }
     .gallery__caption { padding: 0.65rem 0.85rem; font-size: 0.82rem; color: var(--text-light); line-height: 1.4; }
     @media (max-width: 768px) { .gallery { grid-template-columns: 1fr; } }
+
+    /* Upcoming badge */
+    .badge-upcoming { display: inline-block; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.2rem 0.6rem; border-radius: 20px; background: rgba(46,196,182,0.15); color: #1b8a7e; margin-left: 0.5rem; vertical-align: middle; }
   </style>
 </head>
 <body>
@@ -151,6 +154,29 @@
 
       <h2>Conference Presentations</h2>
 
+      <!-- CAC 2026 — Upcoming -->
+      <div class="research-card">
+        <h3>International Conference on Applied Computing (CAC 2026) <span class="badge-upcoming">Upcoming</span></h3>
+        <p>
+          Presenting "Predicting the Future of PC Gaming: An Analysis of Genre Popularity, Player Engagement,
+          and Market Trends for 2026–2031" at the 2026 International Conference on Applied Computing:
+          Bridging Theory, Innovation, and Real-World Impact (CAC 2026).
+        </p>
+        <p style="font-size: 0.88rem; color: var(--text-light);">
+          <strong>Authors:</strong> Q. A. Mendoza, P. Chandana, M. Neilsen
+        </p>
+        <div class="research-tags"><span>Data Science</span><span>Applied AI</span><span>Data Analytics</span><span>Big Data</span><span>Market Trends</span><span>Machine Learning</span></div>
+        <!-- Add conference photos here after the event:
+        <div class="gallery">
+          <div class="gallery__item">
+            <img src="images/CAC2026-1.jpeg" alt="CAC 2026">
+            <div class="gallery__caption">Presentation at CAC 2026</div>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <!-- AI in Agriculture 2026 -->
       <div class="research-card">
         <h3>AI in Agriculture 2026</h3>
         <p>
@@ -169,6 +195,7 @@
         </div>
       </div>
 
+      <!-- SPIE 2023 -->
       <div class="research-card">
         <h3>SPIE Defense + Commercial Sensing 2023</h3>
         <p>
