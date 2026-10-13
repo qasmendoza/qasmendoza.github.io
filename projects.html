@@ -105,6 +105,25 @@
       </div>
 
       <div class="research-card">
+        <h3>🏥 ReadmitRisk: FHIR-Native 30-Day Hospital Readmission Risk Prediction</h3>
+        <ul>
+          <li>Built an end-to-end system that reads HL7 FHIR R4 records, computes 28 leakage-safe features as of discharge, and serves calibrated risk scores as FHIR RiskAssessment resources through a FastAPI service.</li>
+          <li>On the latest 1,314 of 6,570 synthetic hospitalizations, outperformed the LACE clinical baseline (AUROC 0.803 vs. 0.752, DeLong p &lt; 0.001) with a calibration slope of 1.05.</li>
+          <li>Automated the ML lifecycle with MLflow tracking and model registry, a quality gate that blocks weaker models, GitHub Actions CI (98 tests, 95% coverage), Docker, and Kubernetes manifests.</li>
+          <li>Paired PSI with standardized mean differences for drift monitoring, which caught a simulated population shift that PSI alone missed.</li>
+          <li>Added a retrieval-augmented care-transition assistant whose briefs must cite the FHIR resources they rely on.</li>
+        </ul>
+        <p style="font-size: 0.88rem; color: var(--text-muted); font-style: italic;">
+          Built and evaluated on synthetic patient data; not validated for clinical use.
+        </p>
+        <div class="research-tags"><span>Healthcare AI</span><span>HL7 FHIR</span><span>Machine Learning</span><span>MLOps</span><span>FastAPI</span><span>MLflow</span><span>Python</span></div>
+        <div class="pub-item__links" style="margin-top: 0.75rem;">
+          <a href="https://github.com/qasmendoza/readmit-risk" target="_blank">GitHub</a>
+          <a href="https://github.com/qasmendoza/readmit-risk/blob/main/paper/ReAdmitRisk.pdf" target="_blank">Paper</a>
+        </div>
+      </div>
+
+      <div class="research-card">
         <h3>🎮 Predicting the Future of PC Gaming: An Analysis of Genre Popularity, Player Engagement, and Market Trends for 2026–2031</h3>
         <ul>
           <li>Analyzed 87,835 games from the Steam platform (2010–2025) using linear regression to forecast genre trends through 2031.</li>
